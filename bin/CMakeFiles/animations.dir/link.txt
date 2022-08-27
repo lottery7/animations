@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\animations.dir/objects.a
+C:\PROGRA~1\MinGW\bin\ar.exe qc CMakeFiles\animations.dir/objects.a @CMakeFiles\animations.dir\objects1.rsp
+C:\PROGRA~1\MinGW\bin\G__~1.EXE -Wall -Wl,--whole-archive CMakeFiles\animations.dir/objects.a -Wl,--no-whole-archive -o animations.exe -Wl,--out-implib,libanimations.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\animations.dir\linklibs.rsp
